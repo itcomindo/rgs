@@ -1,0 +1,8 @@
+if( ! function_exists( 'prefix_custom_excerpt_length' ) )
+{
+    function prefix_custom_excerpt_length( $length )
+    {
+        return 40;
+    }
+}
+add_filter( 'excerpt_length', 'prefix_custom_excerpt_length', 999 );

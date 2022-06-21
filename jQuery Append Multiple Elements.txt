@@ -1,0 +1,5 @@
+var myWpcbCustomElement = '<div id="buttonWrapper">' + 
+               '<div id="btnFull" class="wpcbbtn">Full</div>' +
+               '<div id="showHideBtn" class="wpcbbtn">Act/Ina<br>Snippets</div>' +
+               '<div id="beta" class="wpcbbtn">Ask Ovi</div>' +
+           '</div>';
